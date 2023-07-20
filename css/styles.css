@@ -1,29 +1,28 @@
 :root {
 	--main-color: #fff;
 	--font-size-16: 16px;
-    --companycolor:#4D5AE5;
-    --text-color:#2E2F42;
+	--companycolor: #4d5ae5;
+	--text-color: #2e2f42;
 }
 
 body {
 	font-family: Roboto, sans-serif;
 	color: #434455;
-    background-color: var(--main-color);
+	background-color: var(--main-color);
 }
-.address-info a{
-    color:#434455;
+.address-info a {
+	color: #434455;
 }
 .address-info a:hover,
-.address-info a:focus{
-   cursor: pointer;
+.address-info a:focus {
+	cursor: pointer;
 	color: #404bbf;
 }
 
-
-.nav-button a{
-    color: var(--text-color);
-    font-style: normal;
-font-weight: 500;
+.nav-button a {
+	color: var(--text-color);
+	font-style: normal;
+	font-weight: 500;
 }
 
 .nav-button a:hover,
@@ -44,16 +43,15 @@ font-weight: 500;
 
 .logo-second-part {
 	color: #4d5ae5;
-    text-decoration: none;
+	text-decoration: none;
 }
-
 
 .main-button {
 	color: #ffffff;
 	background: var(--iris, #4d5ae5);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	cursor: pointer;
-    font-family: roboto,  ;
+	font-family: roboto;
 }
 
 .main-section-title {
@@ -71,24 +69,21 @@ li {
 	list-style: none;
 }
 
-.description{
-    font-size: 14px;
+.description {
+	font-size: 14px;
 }
 
-
-.third-section{
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    color:#2E2F42
+.third-section {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	color: #2e2f42;
 }
-
-
 
 .footer-background {
 	color: #f4f4fd;
 	background-color: #2e2f42;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .logo-footer {
@@ -102,8 +97,8 @@ li {
 	text-decoration: none;
 }
 
-.logo-footer-color{
-    color: #4D5AE5;
+.logo-footer-color {
+	color: #4d5ae5;
 }
 
 .team-member-list {
@@ -122,21 +117,19 @@ li {
 	text-decoration: none;
 }
 
-<!--porfolio-- > 
-
-.filter-button{
-    border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
+<!--porfolio-- > .filter-button {
+	border-radius: 4px;
+	border: 1px solid var(--cornflower, #e7e9fc);
+	background: var(--cloud, #f4f4fd);
 }
 
 .filter-button:hover,
 .filter-button:focus {
 	cursor: pointer;
-	color: #FFF;
-    background-color: #404BBF;
+	color: #fff;
+	background-color: #404bbf;
 }
 
-.team-name{
-    font-size: 20px;
+.team-name {
+	font-size: 20px;
 }
