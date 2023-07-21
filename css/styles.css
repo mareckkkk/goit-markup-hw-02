@@ -204,6 +204,7 @@ letter-spacing: 0.32px;
 }
 
 button.filter-button{
+    font-family: Roboto, sans-serif;
 	border-radius: 4px;
 	border: 1px solid var(--cornflower, #e7e9fc);
 	background: var(--cloud, #f4f4fd);
